@@ -1,0 +1,17 @@
+{
+  "name": "oxm-zgloszenia",
+  "owner": {
+    "name": "OXM IT",
+    "email": "michal.fras@oxm.pl"
+  },
+  "metadata": {
+    "description": "Zgłoszenia do działów Grupy OXM w ClickUp: zakładanie, czytanie, wyszukiwanie"
+  },
+  "plugins": [
+    {
+      "name": "zgloszenia",
+      "source": "./plugins/zgloszenia",
+      "description": "Zakładanie zgłoszeń do działów jak w formularzu ClickUp, czytanie zgłoszeń z polami, komentarzami i plikami, wyszukiwanie zgłoszeń i podobnych spraw"
+    }
+  ]
+}
